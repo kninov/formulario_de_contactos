@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Confirmar_Datos"
+
+    >
+
+        <TextView
+            android:id="@+id/tvConfirmarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/confirmar_datos"
+            app:fontFamily="monospace"
+
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold"
+            tools:ignore="SpUsage"
+
+            />
+
+        <TextView
+            android:id="@+id/tvNombre_contacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_nombre"
+            app:fontFamily="casual"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAzul"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tvFechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_fecha"
+            app:fontFamily="casual"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAzul"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_telefono"
+            app:fontFamily="casual"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAzul"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_email"
+            app:fontFamily="casual"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAzul"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tvCorfimDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_descripcion"
+            app:fontFamily="casual"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAzul"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editar_datos"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            android:onClick="PresionarEditarDatos"
+            />
+
+
+    </LinearLayout>

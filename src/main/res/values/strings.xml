@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Formulario_de_Contacto</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="nombre_usuario"> </string>
+
+    <string name="pick_time">Fecha de Nacimiento</string>
+    <string name="fecha_usuario"> </string>
+
+    <string name="telefono">Teléfono</string>
+    <string name="telefono_usuario"> </string>
+
+    <string name="email">E-mail</string>
+    <string name="email_usuario"> </string>
+
+    <string name="descripcion">Descripción del Contacto</string>
+    <string name="desc">Descripción</string>
+    <string name="descripcion_contacto"> </string>
+
+    <string name="siguiente">Siguiente</string>
+
+
+
+    <string name="confirmar_datos">Confirmar Datos</string>
+    <string name="confirmar_nombre"> </string>
+    <string name="confirmar_fecha"> </string>
+    <string name="confirmar_telefono"> </string>
+    <string name="confirmar_email"> </string>
+    <string name="confirmar_descripcion"> </string>
+
+    <string name="editar_datos">Editar Datos</string>
+
+
+    <string name="pNombres">nombre</string>
+    <string name="pFecha">fecha</string>
+    <string name="pTelefono">telefono</string>
+    <string name="pEmail">email</string>
+    <string name="pDescripcion">descripcion</string>
+
+    <string name="paramNombres">pnombre</string>
+    <string name="paramFecha">pfecha</string>
+    <string name="paramTelefono">ptelefono</string>
+    <string name="paramEmail">pemail</string>
+    <string name="paramDescripcion">pdescripcion</string>
+
+
+    <string name="mensaje_precaucion">Por favor, Ingrese todos sus datos</string>
+</resources>
